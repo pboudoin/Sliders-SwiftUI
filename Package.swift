@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "CGExtender", url: "https://github.com/pboudoin/CGExtender.git", from: "1.0.1"),
-        .package(name: "Shapes", url: "https://github.com/pboudoin/SwiftUI-Shapes.git", from: "1.0.2"),
+        .package(name: "Shapes", url: "https://github.com/pboudoin/SwiftUI-Shapes.git", from: "1.0.4"),
         .package(name: "bez", url: "https://github.com/pboudoin/SwiftUI-bez.git", from: "1.0.0")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
