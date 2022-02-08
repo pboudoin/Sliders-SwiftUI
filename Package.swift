@@ -24,7 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "Sliders",
-            dependencies: ["CGExtender", .product(name: "Shapes", package: "SwiftUI-Shapes"), .product(name: "bez", package: "SwiftUI-Bez")]),
+            dependencies: ["CGExtender", .product(name: "Shapes", package: "SwiftUI-Shapes"), .product(name: "bez", package: "SwiftUI-bez")]),
         .testTarget(
             name: "SlidersTests",
             dependencies: ["Sliders"]),
